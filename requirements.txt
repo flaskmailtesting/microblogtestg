@@ -16,27 +16,25 @@ Flask-Moment==0.6.0
 Flask-SQLAlchemy==2.3.2
 Flask-WTF==0.14.2
 guess-language-spirit==0.5.3
+gunicorn==19.7.1
 idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
 Mako==1.0.7
 MarkupSafe==1.0
+psycopg2==2.7.4
 PyJWT==1.6.1
+PyMySQL==0.8.0
 python-dateutil==2.7.2
 python-dotenv==0.8.2
 python-editor==1.0.3
 pytz==2018.3
+redis==2.10.6
 requests==2.18.4
+rq==0.10.0
 six==1.11.0
 SQLAlchemy==1.2.6
 urllib3==1.22
 visitor==0.1.3
 Werkzeug==0.14.1
 WTForms==2.1
-
-# requirements for deployment on traditional Linux - example uses myssql
-PyMySQL==0.8.0
-
-# requirements for deployment on Heroku - psycopg2 for postgresql
-psycopg2==2.7.4
-gunicorn==19.7.1
